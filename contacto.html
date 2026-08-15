@@ -3,73 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Aura Botánica - Contacto</title>
+  <title>Contacto - Aura Botánica</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 
-  <header class="site-header">
+  <header class="site-header" style="text-align: center; padding: 20px;">
     <div class="logo-contenedor-3d">
-        <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen">
+      <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen" style="max-width: 150px; margin: 0 auto;">
     </div>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html" class="active">Contacto</a></li>
-        </ul>
+    
+    <nav class="site-nav" style="margin-top: 15px;">
+      <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html" style="font-weight: bold; color: #2c5e3b;">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main class="contacto-main">
-    <section class="intro-section">
-        <h1>Contáctanos</h1>
-        <p>Estamos aquí para responder tus dudas y ayudarte a llevar la naturaleza a tu espacio ideal.</p>
-    </section>
+  <main style="max-width: 600px; margin: 40px auto; padding: 20px; line-height: 2;">
+    <h1 style="text-align: center;">Contáctanos</h1>
+    <p style="text-align: center;">Estamos aquí para responder tus dudas y ayudarte a llevar la naturaleza a tu espacio ideal.</p>
 
-    <div class="contacto-container">
-        <div class="info-contacto">
-            <h2>Información de Ubicación</h2>
-            <p><strong>Dirección:</strong> Ciudadela San José y la 11ava, Quevedo - Los Ríos, Ecuador</p>
-            <p><strong>Teléfono / WhatsApp:</strong> <a href="https://wa.me/593968039829" target="_blank">+593 96 803 9829</a></p>
-            <p><strong>Correo Electrónico:</strong> <a href="mailto:carrionmacrina@gmail.com">carrionmacrina@gmail.com</a></p>
-            
-            <h2>Horarios de Atención</h2>
-            <p>Lunes a Viernes: 09:00 - 18:00</p>
-            <p>Sábados: 10:00 - 15:00</p>
-
-            <div class="mapa-ubicacion">
-                <img src="assets/img/banner.jpg" alt="Ubicación Aura Botánica">
-            </div>
-        </div>
-
-        <div class="formulario-contacto">
-            <h2>Envíanos un Mensaje</h2>
-            <form onsubmit="event.preventDefault();">
-                <div class="form-group">
-                    <label for="nombre">Nombre completo:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
-                </div>
-
-                <button type="submit" class="cta-button">Enviar Mensaje</button>
-            </form>
-        </div>
+    <div style="margin-top: 30px; font-size: 1.1em;">
+        <h3>Información de Ubicación</h3>
+        <p>📍 <strong>Dirección:</strong> Ciudadela San José y la 11ava, Quevedo - Los Ríos, Ecuador</p>
+        <p>📱 <strong>Teléfono / WhatsApp:</strong> <a href="https://wa.me/593968039829" target="_blank">+593 96 803 9829</a></p>
+        <p>✉️ <strong>Correo Electrónico:</strong> <a href="mailto:carrionmacrina@gmail.com">carrionmacrina@gmail.com</a></p>
     </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" style="text-align: center; margin-top: 50px; padding: 20px;">
     <p>© 2026 Aura Botánica - Todos los derechos reservados</p>
   </footer>
 

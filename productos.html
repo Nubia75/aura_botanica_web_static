@@ -3,98 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Catálogo - Aura Botánica</title>
+  <title>Nosotros - Aura Botánica</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-  <div class="contenedor-principal"></div>
-  
-  <header class="site-header">
+
+  <!-- Encabezado unificado -->
+  <header class="site-header" style="text-align: center; padding: 20px;">
     <div class="logo-contenedor-3d">
-      <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen">
+      <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen" style="max-width: 150px; margin: 0 auto;">
     </div>
     
-    <!-- Menú de navegación corregido -->
-    <nav class="site-nav">
-      <ul>
+    <nav class="site-nav" style="margin-top: 15px;">
+      <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="productos.html" class="activo">Productos</a></li>
+        <li><a href="nosotros.html" style="font-weight: bold; color: #2c5e3b;">Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
-
-    <h1>Lista de Productos</h1>
-    <p>Descubre nuestra selección exclusiva de detalles cuidadosamente diseñados para momentos inolvidables</p>
   </header>
 
-  <main>
-    <section class="productos-grid">
-      <div class="producto">
-        <img src="assets/img/prod1.jpg" alt="Orquídea Reina de los Andes">
-        <h3>"Orquídea de los Andes"</h3>
-        <p>La esencia pura de nuestros bosques. Con pétalos de una delicadeza única y colores vibrantes, esta orquídea no es solo una planta, es un símbolo de sofisticación. El regalo perfecto para transformar cualquier espacio en un jardín exclusivo.</p>
-        <span class="precio">$25.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-
-      <div class="producto">
-        <img src="assets/img/prod2.jpg" alt="Bromelia Exótica Tropical">
-        <h3>Bromelia "Exótica Tropical"</h3>
-        <p>Una planta con personalidad propia. Su centro vibrante y su estructura robusta capturan la magia del trópico, ideal para quienes buscan un elemento decorativo impactante.</p>
-        <span class="precio">$18.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-
-      <div class="producto">
-        <img src="assets/img/prod3.jpg" alt="Anturio Corazón Ardiente">
-        <h3>"Anturio Ardiente"</h3>
-        <p>Famoso por su brillo natural y su característico color rojo intenso, este anturio aporta un toque de energía y vida. Es la elección ideal para quienes buscan elegancia con carácter.</p>
-        <span class="precio">$15.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-
-      <div class="producto">
-        <img src="assets/img/prod4.jpg" alt="Hortensia Azul Imperial">
-        <h3>Hortensia "Azul Imperial"</h3>
-        <p>Grandes racimos florales que evocan la tranquilidad de los jardines de la Sierra. Su textura esponjosa y sus tonos sutiles la convierten en la protagonista absoluta de cualquier habitación.</p>
-        <span class="precio">$20.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-
-      <div class="producto">
-        <img src="assets/img/prod5.jpg" alt="Helecho Bosque Fresco">
-        <h3>Helecho "Bosque Fresco"</h3>
-        <p>Una pieza clásica que nunca pasa de moda. Con su follaje verde profundo y abundante, aporta frescura, equilibrio y un toque natural incomparable a tu decoración.</p>
-        <span class="precio">$12.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-
-      <div class="producto">
-        <img src="assets/img/prod6.jpg" alt="Suculenta Joya Geométrica">
-        <h3>"Suculenta Geométrica"</h3>
-        <p>La perfección de la naturaleza en miniatura. Con sus hojas dispuestas en espirales simétricas, esta suculenta es resistente, moderna y perfecta para espacios minimalistas.</p>
-        <span class="precio">$8.00</span>
-        <div class="contenedor-carrito">
-          <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito">
-        </div>
-      </div>
-    </section>
+  <main style="max-width: 800px; margin: 20px auto; padding: 20px; text-align: center; line-height: 1.6;">
+    <h1>Sobre Nosotros</h1>
+    <h3>Nuestra Historia</h3>
+    <p>Aura Botánica nació con la firme visión de acercar la naturaleza a los hogares urbanos, promoviendo espacios más conscientes, saludables y estéticamente armónicos.</p>
+    
+    <h3>Misión</h3>
+    <p>Proveer plantas, arreglos y accesorios botánicos de la más alta calidad, educando a nuestra comunidad en el cuidado ambiental y el bienestar verde.</p>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" style="text-align: center; margin-top: 50px; padding: 20px; font-size: 0.9em; color: #777;">
     <p>© 2026 Aura Botánica - Todos los derechos reservados</p>
   </footer>
+
 </body>
 </html>
