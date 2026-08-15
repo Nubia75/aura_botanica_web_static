@@ -3,45 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Aura Botánica - Plant Boutique</title>
+  <title>Productos - Aura Botánica</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
-  <div class="contenedor-principal"></div>
-  
-  <header class="site-header">
-    <div class="logo-contenedor-3d">
-      <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen">
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+  <!-- Cabecera unificada -->
+  <header style="background-color: #f4f6f4; padding: 20px; text-align: center; border-bottom: 1px solid #ddd;">
+    <div>
+      <img src="assets/img/logo.png" alt="Logo Aura Botánica" style="width: 120px; max-width: 120px; height: auto; display: block; margin: 0 auto;">
     </div>
     
-    <nav class="site-nav">
-      <ul>
-        <li><a href="index.html" class="activo">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+    <nav style="margin-top: 15px;">
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 25px;">
+        <li><a href="index.html" style="text-decoration: none; color: #333;">Inicio</a></li>
+        <li><a href="nosotros.html" style="text-decoration: none; color: #333;">Nosotros</a></li>
+        <li><a href="productos.html" style="text-decoration: none; color: #2c5e3b; font-weight: bold;">Productos</a></li>
+        <li><a href="contacto.html" style="text-decoration: none; color: #333;">Contacto</a></li>
       </ul>
     </nav>
-
-    <h1>Bienvenidos a Aura Botánica</h1>
-    <p>Llevamos la elegancia y frescura de la naturaleza directamente a tus espacios ideales.</p>
   </header>
 
-  <main style="text-align: center; padding: 40px 20px;">
-    <section class="bienvenida-seccion">
-      <h2>Transforma tus espacios con vida</h2>
-      <p style="max-width: 600px; margin: 20px auto; color: #555;">
-        Explora nuestra selección exclusiva de plantas ornamentales, detalles únicos y arreglos diseñados cuidadosamente para momentos inolvidables.
-      </p>
-      <a href="productos.html" style="display: inline-block; background-color: #2c5e3b; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px;">
-        Ver Catálogo de Productos
-      </a>
-    </section>
+  <main style="max-width: 900px; margin: 40px auto; padding: 20px; text-align: center;">
+    <h1 style="color: #2c5e3b;">Catálogo de Productos</h1>
+    <p style="color: #555;">Descubre nuestra selección exclusiva de detalles cuidadosamente diseñados para momentos inolvidables.</p>
+
+    <!-- Cuadrícula de productos -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; text-align: left;">
+        
+        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod1.jpg" alt="Orquídea de los Andes" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Orquídea de los Andes</h3>
+            <p style="color: #555; font-size: 0.9em;">La esencia pura de nuestros bosques con pétalos de una delicadeza única.</p>
+            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$25.00</p>
+        </div>
+
+        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod2.jpg" alt="Bromelia Exótica Tropical" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Bromelia Exótica Tropical</h3>
+            <p style="color: #555; font-size: 0.9em;">Su centro vibrante y estructura robusta capturan la magia del trópico.</p>
+            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$18.00</p>
+        </div>
+
+    </div>
   </main>
 
-  <footer class="site-footer">
+  <footer style="text-align: center; margin-top: 50px; padding: 20px; background-color: #f4f6f4; color: #777; font-size: 0.9em;">
     <p>© 2026 Aura Botánica - Todos los derechos reservados</p>
   </footer>
+
 </body>
 </html>
