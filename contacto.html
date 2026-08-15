@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aura Botánica - Contacto</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo-contenedor-3d">
+        <img src="assets/img/logo.png" alt="Logo Aura Botánica" class="logo-imagen">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main class="contacto-main">
+    <section class="intro-section">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para responder tus dudas y ayudarte a llevar la naturaleza a tu espacio ideal.</p>
+    </section>
+
+    <div class="contacto-container">
+        <div class="info-contacto">
+            <h2>Información de Ubicación</h2>
+            <p><strong>Dirección:</strong> Ciudadela San José y la 11ava, Quevedo - Los Ríos, Ecuador</p>
+            <p><strong>Teléfono / WhatsApp:</strong> <a href="https://wa.me/593968039829" target="_blank">+593 96 803 9829</a></p>
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:carrionmacrina@gmail.com">carrionmacrina@gmail.com</a></p>
+            
+            <h2>Horarios de Atención</h2>
+            <p>Lunes a Viernes: 09:00 - 18:00</p>
+            <p>Sábados: 10:00 - 15:00</p>
+
+            <div class="mapa-ubicacion">
+                <img src="assets/img/banner.jpg" alt="Ubicación Aura Botánica">
+            </div>
+        </div>
+
+        <div class="formulario-contacto">
+            <h2>Envíanos un Mensaje</h2>
+            <form onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Aura Botánica - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
