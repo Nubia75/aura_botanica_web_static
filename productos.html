@@ -28,61 +28,79 @@
     <h1 style="color: #2c5e3b;">Catálogo de Productos</h1>
     <p style="color: #555;">Descubre nuestra selección exclusiva de detalles cuidadosamente diseñados para momentos inolvidables.</p>
 
-    <!-- Cuadrícula con los 6 productos -->
+    <!-- Cuadrícula con los 6 productos originales -->
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; text-align: left;">
         
         <!-- Producto 1 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/planta1.jpg" alt="Monstera Deliciosa" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Monstera Deliciosa</h3>
-            <p style="color: #555; font-size: 0.9em;">Perfecta para iluminar y dar vida a cualquier rincón de tu hogar con sus hojas que purifican el aire.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$25.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod1.jpg" alt="Orquídea de los Andes" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Orquídea de los Andes</h3>
+            <p style="color: #555; font-size: 0.9em;">La esencia pura de nuestros bosques. Con pétalos de una delicadeza única y colores vibrantes, esta orquídea no es solo una planta, es un símbolo de sofisticación. El regalo perfecto para transformar cualquier espacio en un jardín exclusivo.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$25.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
         <!-- Producto 2 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/prod1.jpg" alt="Orquídea de los Andes" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Orquídea de los Andes</h3>
-            <p style="color: #555; font-size: 0.9em;">La esencia pura de nuestros bosques con pétalos de una delicadeza única, símbolo de sofisticación.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$25.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod2.jpg" alt="Bromelia Exótica Tropical" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Bromelia Exótica Tropical</h3>
+            <p style="color: #555; font-size: 0.9em;">Una planta con personalidad propia. Su centro vibrante y su estructura robusta capturan la magia del trópico, ideal para quienes buscan un elemento decorativo impactante.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$18.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
         <!-- Producto 3 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/prod2.jpg" alt="Bromelia Exótica Tropical" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Bromelia Exótica Tropical</h3>
-            <p style="color: #555; font-size: 0.9em;">Su centro vibrante y estructura robusta capturan la magia y el color del trópico.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$18.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod3.jpg" alt="Anturio Corazón Ardiente" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Anturio Ardiente</h3>
+            <p style="color: #555; font-size: 0.9em;">Famoso por su brillo natural y su característico color rojo intenso, este anturio aporta un toque de energía y vida.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$22.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
         <!-- Producto 4 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/planta3.jpg" alt="Ficus Lyrata" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Ficus Lyrata</h3>
-            <p style="color: #555; font-size: 0.9em;">Hojas grandes en forma de violín que aportan una presencia elegante y moderna a cualquier espacio.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$30.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod4.jpg" alt="Hortensia Azul Imperial" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Hortensia "Azul Imperial"</h3>
+            <p style="color: #555; font-size: 0.9em;">Grandes racimos florales que evocan la tranquilidad de los jardines de la Sierra. Su textura esponjosa y sus tonos sutiles la convierten en la protagonista absoluta de cualquier habitación.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$20.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
         <!-- Producto 5 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/planta4.jpg" alt="Cuna de Moisés" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Cuna de Moisés</h3>
-            <p style="color: #555; font-size: 0.9em;">Follaje verde oscuro intenso acompañado de hermosas flores blancas que transmiten paz.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$15.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod5.jpg" alt="Helecho Bosque Fresco" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Helecho "Bosque Fresco"</h3>
+            <p style="color: #555; font-size: 0.9em;">Una pieza clásica que nunca pasa de moda. Con su follaje verde profundo y abundante, aporta frescura, equilibrio y un toque natural incomparable a tu decoración.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$12.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
         <!-- Producto 6 -->
-        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
-            <img src="assets/img/planta5.jpg" alt="Suculenta Echeveria" style="width: 100%; border-radius: 5px;">
-            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Suculenta Echeveria</h3>
-            <p style="color: #555; font-size: 0.9em;">En forma de roseta perfecta, ideal para escritorios y pequeños detalles decorativos.</p>
-            <p style="font-weight: bold; color: #333; font-size: 1.1em;">$10.00</p>
+        <div class="producto" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; background: #fff;">
+            <img src="assets/img/prod6.jpg" alt="Suculenta Joya Geométrica" style="width: 100%; border-radius: 5px;">
+            <h3 style="color: #2c5e3b; margin: 15px 0 10px 0;">Suculenta Geométrica</h3>
+            <p style="color: #555; font-size: 0.9em;">La perfección de la naturaleza en miniatura. Con sus hojas dispuestas en espirales simétricas, esta suculenta es resistente, moderna y perfecta para espacios minimalistas.</p>
+            <span class="precio" style="font-weight: bold; color: #333; font-size: 1.1em; display: block; margin-top: 10px;">$8.00</span>
+            <div class="contenedor-carrito" style="margin-top: 10px;">
+                <img src="assets/img/icons/icon1.png" alt="Añadir al carrito" class="icono-carrito" style="width: 24px; cursor: pointer;">
+            </div>
         </div>
 
     </div>
   </main>
 
-  <footer style="text-align: center; margin-top: 50px; padding: 20px; background-color: #f4f6f4; color: #777; font-size: 0.9em;">
+  <footer class="site-footer" style="text-align: center; margin-top: 50px; padding: 20px; background-color: #f4f6f4; color: #777; font-size: 0.9em;">
     <p>© 2026 Aura Botánica - Todos los derechos reservados</p>
   </footer>
 
